@@ -1,0 +1,31 @@
+{
+  "name": "acdcache",
+  "version": "1.0.0",
+  "description": "async-cache-dedupe made easier in TS",
+  "main": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "test": "npx vitest run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thelinuxlich/acdcache.git"
+  },
+  "keywords": [
+    "node",
+    "async-cache-dedupe",
+    "typescript"
+  ],
+  "author": "thelinuxlich",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thelinuxlich/acdcache/issues"
+  },
+  "homepage": "https://github.com/thelinuxlich/acdcache#readme",
+  "dependencies": {
+    "async-cache-dedupe": "^1.12.0"
+  },
+  "devDependencies": {
+    "vitest": "^0.34.3"
+  }
+}
